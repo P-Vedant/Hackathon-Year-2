@@ -1,0 +1,34 @@
+<!--Mental Health Chatbot. Open website that says Mental Health Consulting with a button that says " Let's get started".-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel = "stylesheet" href = "style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+  <title class="Main"> Mental Health Consulting </title>
+</head>
+<body>
+  <h1>Mental Health Consulting</h1>
+  <div class="center">
+    <button id="startBtn">Start Chat</button>
+  </div>
+  
+  <script>
+    console.log("Inline JS works!");
+  </script>
+  <script> 
+    document.getElementById('startBtn').addEventListener("click", () => {
+    window.location.href = "chat.html";
+  });
+  </script>
+  <div class="ribbonImg"></div>
+  <img src="https://cdn11.bigcommerce.com/s-dl22izwaan/images/stencil/1280x1280/products/1048/18975/2215_1k__02095.1625592307.jpg?c=1" class="ribbonImg">
+
+</body>
+
+</html>
