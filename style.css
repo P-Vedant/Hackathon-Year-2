@@ -101,6 +101,31 @@ img {
   
 }
 
+#aititle {
+    font-family: 'Roboto Slab', serif; /* Elegant and modern */
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeInTitle 1.5s ease-out;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title animation */
+  @keyframes fadeInTitle {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
 
 
@@ -209,7 +234,7 @@ img {
 
 
 
-  
+
 
   .description {
     margin-top: 150px;
